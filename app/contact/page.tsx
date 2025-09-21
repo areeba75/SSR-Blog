@@ -62,7 +62,7 @@ export default function ContactPage() {
               </span>
             </h1>
             <p className="text-xl text-purple-200 leading-relaxed">
-              Let's discuss NewsHub Pro, explore collaboration opportunities, 
+              Let&apos;s discuss NewsHub Pro, explore collaboration opportunities, 
               or chat about web development and technology.
             </p>
           </div>
@@ -75,7 +75,7 @@ export default function ContactPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Ways to Connect</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Choose your preferred method of communication. I'm always excited to discuss 
+              Choose your preferred method of communication. I&apos;m always excited to discuss 
               new projects, share insights, or explore potential collaborations.
             </p>
           </div>
@@ -166,10 +166,10 @@ export default function ContactPage() {
                 <div className="p-2 bg-pink-100 rounded-lg">
                   <FaPhone className="text-pink-600 text-xl" />
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900">Let's Discuss</h3>
+                <h3 className="text-2xl font-semibold text-gray-900">Let&apos;s Discuss</h3>
               </div>
               <div className="space-y-4 text-gray-600">
-                <p>Have a project in mind? Let's talk about it!</p>
+                <p>Have a project in mind? Let&apos;s talk about it!</p>
                 <p>Available for:</p>
                 <ul className="list-disc list-inside space-y-1 ml-4">
                   <li>Project consultations</li>

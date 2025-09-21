@@ -1,6 +1,6 @@
 // app/about/page.tsx
 import Link from 'next/link'
-import { FaReact, FaNodeJs, FaGithub, FaLinkedin, FaArrowLeft, FaCode, FaRocket, FaMobile, FaGlobe } from 'react-icons/fa'
+import { FaReact,  FaGithub, FaLinkedin, FaArrowLeft, FaCode, FaRocket, FaMobile, FaGlobe } from 'react-icons/fa'
 import { SiNextdotjs, SiTypescript, SiTailwindcss, SiVercel } from 'react-icons/si'
 
 export const metadata = {
@@ -159,10 +159,10 @@ export default function AboutPage() {
         {/* Contact Section */}
         <section className="text-center">
           <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Let's Connect</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Let&apos;s Connect</h2>
             <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
               Interested in discussing this project or exploring collaboration opportunities? 
-              I'd love to hear from you!
+              I&apos;d love to hear from you!
             </p>
             <div className="flex justify-center gap-6">
               <Link
