@@ -2,15 +2,17 @@
 'use client'
 import Link from 'next/link'
 import { useState } from 'react'
-import { FaRegNewspaper, FaBars, FaTimes, FaGlobe, FaFire, FaLaptop, FaBriefcase, FaFutbol, FaChevronDown } from 'react-icons/fa'
+import { FaRegNewspaper, FaBars, FaTimes, FaGlobe, FaFire, FaLaptop, FaBriefcase, FaFutbol, FaChevronDown, FaSearch, FaBookmark } from 'react-icons/fa'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [isCategoriesOpen, setIsCategoriesOpen] = useState(false)
 
-  const navItems = [
-    { name: 'Headlines', href: '/', icon: FaFire },
-  ]
+ const navItems = [
+  { name: 'Headlines', href: '/', icon: FaFire },
+  { name: 'Search', href: '/search', icon: FaSearch },
+  { name: 'Bookmarks', href: '/bookmarks', icon: FaBookmark },
+]
 
   const categories = [
     { name: 'Technology', href: '/category/technology', icon: FaLaptop },

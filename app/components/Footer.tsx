@@ -31,21 +31,21 @@ const Footer = () => {
                 <FaLinkedin size={20} />
               </Link>
               <Link 
-                href="https://github.com" 
+                href="https://github.com/areeba75" 
                 className="text-gray-400 hover:text-purple-400 transition-colors p-2 rounded-lg hover:bg-gray-800"
                 aria-label="GitHub Profile"
               >
                 <FaGithub size={20} />
               </Link>
-              <Link 
+              {/* <Link 
                 href="https://twitter.com" 
                 className="text-gray-400 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-gray-800"
                 aria-label="Twitter Profile"
               >
                 <FaTwitter size={20} />
-              </Link>
+              </Link> */}
               <Link 
-                href="mailto:areeba@example.com" 
+                href="mailto:areebaars1@gmail.com" 
                 className="text-gray-400 hover:text-red-400 transition-colors p-2 rounded-lg hover:bg-gray-800"
                 aria-label="Email Contact"
               >
